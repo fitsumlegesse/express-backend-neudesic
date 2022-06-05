@@ -14,7 +14,9 @@ const router = express.Router()
 
 router.post("/register", register)
 router.post("/login", login)
-router.get("/home")
+router.get('/', function (req, res) {
+   res.send('Hello World');
+})
 
 
 
