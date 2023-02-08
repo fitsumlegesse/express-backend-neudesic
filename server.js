@@ -11,14 +11,14 @@ const morgan = require("morgan")
 
     const app = express()
 
-//Establishing a database connection to atlas db
-    mongoose
-      .connect(process.env.DATABASE, {
-          useNewUrlParser: true,
-          useUnifiedTopology: true
-      })
-      .then(() => console.log("DB connected"))
-      .catch((err) => console.log("DB Error => ", err));
+// //Establishing a database connection to atlas db
+//     mongoose
+//       .connect(process.env.DATABASE, {
+//           useNewUrlParser: true,
+//           useUnifiedTopology: true
+//       })
+//       .then(() => console.log("DB connected"))
+//       .catch((err) => console.log("DB Error => ", err));
 
 
 
